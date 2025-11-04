@@ -1,12 +1,12 @@
 ## Projeto: Sistema de Cadastro 
 
-Este projeto tem como objetivo criar um sistema simples para cadastro e gerenciamento de uma empresa. O sistema conta com uma página de login, onde o usuário pode se cadastrar ou acessar sua conta. As informações de cadastro são salvas em um banco de dados.
+O sistema conta com uma área de login segura, onde o usuário pode se cadastrar, acessar sua conta ou recuperar a senha caso a tenha esquecido. O processo de recuperação de senha é realizado via e-mail automático, garantindo praticidade e segurança.
 
-Após o login, o usuário pode acessar a página de gerenciamento, onde é possível cadastrar novos equipamentos e visualizar os já registrados. O sistema permite realizar operações básicas de CRUD (Criar, Ler, Atualizar e Deletar).
+Todas as senhas são armazenadas utilizando hash criptográfico, seguindo boas práticas de proteção de dados e autenticação.
 
-A interface é simples e fácil de usar, permitindo o controle e organização dos equipamentos de maneira eficiente e prática. 
+Após o login, o usuário tem acesso à página de gerenciamento, onde é possível cadastrar novos equipamentos, veículos e colaboradores, além de visualizar, editar e excluir registros existentes.
 
-Nesse exemplo realizei um cadastro de frota no setor automotivo
+O sistema implementa as operações completas de CRUD (Criar, Ler, Atualizar e Deletar), oferecendo uma interface simples, responsiva e fácil de usar, que permite o controle e a organização das frotas e equipamentos de forma eficiente e prática.
 
 ![Minha Imagem](Login.jpg)
 
