@@ -14,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
     $result = $stmt->get_result();
 
-    if ($result->num_rows > 0) {
-        $row = $result->fetch_assoc();
+    if ($result->num_rows > 0) {            
+        $row = $result->fetch_assoc();   
         $senha_armazenada = $row['senha'];
 
         if (password_verify($senha, $senha_armazenada)) {
@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="author" content="Muhamad Nauval Azhar">
+	<meta name="author" content="Ricardo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="This is a login page template based on Bootstrap 5">
 	<title>Login</title>
